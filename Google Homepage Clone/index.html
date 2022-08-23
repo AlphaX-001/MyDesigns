@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<title>Google</title>
+		<link rel="stylesheet" href="./css/site.css">
+		<link rel="icon" href="./img/branding.png" type="image/x-icon">
+	</head>
+	<body>
+	
+		<div class="nav-bar">
+			<ul>
+				<li class="hl">Gmail</li>
+				<li class="hl">Images</li>
+				<li onclick="showapps();hideuser();" class="hl-2"><div class="nav-apps"><img src="./img/apps.png"></div></li>
+				<li onclick="showuser(); hideapps();"  class="hl-2"><div class="nav-user"><img src="./img/user.jpg"></div></li>
+			</ul>
+		</div>
+		<div class="container" onclick="hideapps(); hideuser();">
+		<div class="all-apps" id="apps">
+			<div class="row">
+				<ul>
+					<li><img src="./img/user.jpg"></li>
+					<li><img src="./img/branding.png"></li>
+					<li><img src="./img/maps.png"></li>
+				</ul>
+			</div>
+			<div class="row">
+				<ul>
+					<li><img src="./img/youtube.png"></li>
+					<li><img src="./img/play.png"></li>
+					<li><img src="./img/gmail.png"></li>
+				</ul>
+			</div>
+			<div class="row">
+				<ul>
+					<li><img src="./img/drive.png"></li>
+					<li><img src="./img/calender.png"></li>
+					<li><img src="./img/photos.png"></li>
+				</ul>
+			</div>
+			<div class="row">
+				<ul>
+					<li><img src="./img/duo.png"></li>
+					<li><img src="./img/shopping.png"></li>
+					<li><img src="./img/meet.png"></li>
+				</ul>
+			</div>
+			<hr>
+			<div class="row">
+				<ul>
+					<li><img src="./img/docs.png"></li>
+					<li><img src="./img/cloud.png"></li>
+					<li><img src="./img/files.png"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="all-user" id="user">
+		<div class="row">
+		<center>
+			<img src="./img/user.jpg" style="height: 80px;width: 80px;">
+			<h6>Anith Bairagi</h6>
+			<p>anithbairagi8@gmail.com</p>
+			<div class="manage">Manage Your Google Account</div>
+			<br>
+			<h6>Add Another Account</h6>
+			<br>
+			<div class="sign-out">Sign out of all accounts</div>
+			<br>
+			<hr>
+			<br>
+			<br>
+			<p>Privacy Policy • Terms of Service</p>
+		</center>
+		</div>
+		<div class="row"></div>
+		</div>
+		<br>
+		
+		<div class="sec-logo">
+		<center>
+				<img class="logo" src="./img/logo.png">
+				<div class="search-bar"></div>
+				<ul>
+					<li class="btn">Google Search</li>
+					<li class="btn">I'm Feeling Lucky</li>
+				</ul>
+				<p style="color: #ff0000;">New!</p> 
+				<p style="color: #bdc1c6;">Meet the Google</p> 
+				<p class="hlink" style="color: #8ab4f8;">Pixel 6a</p>
+				<p style="color: #bdc1c6;">. Find out more</p>
+				<div class="lang">
+					
+					<ul>
+						<li style="color: #bdc1c6;">Google offered in:</li>
+						<li class="hlink">हिन्दी</li>
+						<li class="hlink">বাংলা</li>
+						<li class="hlink">తెలుగు</li>
+						<li class="hlink">मराठी</li>
+						<li class="hlink">தமிழ்</li>
+						<li class="hlink">ગુજરાતી</li>
+						<li class="hlink">ಕನ್ನಡ</li>
+						<li class="hlink">മലയാളം</li>
+						<li class="hlink">ਪੰਜਾਬੀ</li>
+					</ul>
+				</div>
+		</center>
+		</div>
+		<div class="footer">
+		<div class="ftr-1">India</div>
+		<div class="ftr-2">
+			<div class="left-ftr">
+			<ul>
+				<li>About</li>
+				<li>Advertising</li>
+				<li>Business</li>
+				<li>How Search works</li>
+			</ul>
+			</div>
+			<div class="right-ftr">
+				<ul style="float:right;">
+					<li>Privacy</li>
+					<li>Terms</li>
+					<li>Settings</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		</div>
+		<script>
+			function showapps()
+			{
+				document.getElementById("apps").style.display = "inline";
+			}
+			function hideapps()
+			{
+				document.getElementById("apps").style.display = "none";
+			}
+			function showuser()
+			{
+				document.getElementById("user").style.display = "inline";
+			}function hideuser(){
+				document.getElementById("user").style.display = "none";
+			}
+		</script>
+	</body>
+</html>
+
+			<!--<div class="left-ftr">
+			<ul>
+				<li>About</li>
+				<li>Advertising</li>
+				<li>Business</li>
+				<li>How Search works</li>
+			</ul>
+			</div>
+			<div class="right-ftr">
+				<ul>
+					<li>Privacy</li>
+					<li>Terms</li>
+					<li>Settings</li>
+					
+				</ul>
+			</div>-->

@@ -1,0 +1,284 @@
+/*New Mi Clone*/
+body{
+ font-family:ProximaNova,Arial,Sans-serif;
+ font-weight:400;
+ font-size:14px;
+ padding:0px;
+ margin:0px;
+ line-height:1.5;
+ color:#757575;
+ background-color:#f5f5f5;
+ margin-top: -15px;
+ padding: 0px;
+ border: 0px;
+}
+.top-menu{
+	width:100%;
+	height:41px;
+	background-color:#212121;
+	padding: 0px;
+	padding-left: 110;
+	padding-right: 87;
+}
+.left-side li
+{
+	display:inline-block;
+	margin-right:13px;
+	color:#b0b0b0; 
+	font-weight:400;
+	font-size:12px;
+	margin-top:11px;
+	opacity: 0.9;
+}
+.right-side{
+	float:right;
+	margin-right: 296;
+}
+.right-side li{
+	display:inline-block;
+	
+	font-weight:400;
+	margin-right:13px;
+	font-size:12px;
+	opacity: 0.9;
+	margin-top:-67px;
+	color: #b0b0b0;
+}
+.banner{
+	width:100%;
+	height:500px;
+	background-attachment:absolute;
+	background-color:transparent;
+	position: relative;
+}
+.banner .img-banner{
+	width:113%;
+	position:absolute;
+}
+.banner .down-menu li{
+	display:inline-block;
+	color:#fff;
+	margin:13px;
+	margin-right:33px;
+	opacity: 1;
+	margin-top: 21;
+	transition:0.5s;
+	font-size: 13;
+}
+.banner .img-logo{
+	height:55px;
+	position: absolute;
+	margin-left: -73px;
+	margin-top: -20px;
+	opacity: 1;
+	/*! margin-right: 12px; */
+}
+
+.cards1{
+	width:100%;
+	min-height:282px;
+
+
+}
+.cards1 li{
+	display:inline-block;
+	margin: 5;
+	margin-top: 13;
+}
+.ads{
+	width:100%;
+}
+.ads li{
+	display:inline-block;
+}
+.ads .left1{
+	
+	/*! margin-left: 69; */
+}
+.ads .right1{
+	width: 300;
+  margin-bottom: 297;
+	position: relative;
+	margin-left: 0px;
+}
+.ads .rightdown{
+	margin-left:-304px;
+	/*! margin-top: -25px; */
+}
+.ads .right2{
+	position: absolute;
+	/*! margin-top: 294; */
+	margin-left: 3;
+}
+.center-text{
+	text-align:center;
+	line-height:30px;
+	font-size:30px;
+	color:#616161;
+	font-weight:300;
+	margin-bottom:35;
+	text-transform:uppercase;
+}
+.hot-pro{
+	width:100%;
+	min-height:35px;
+	
+	margin-top:20px;
+	
+}
+.hot-pro ul{
+	float:center;
+}
+.hot-pro li{
+	transition: 0.1s;
+	display:inline-block;
+	margin-right:43px;
+	color:#757575;
+	font-size:16px;
+	border: 3px solid transparent;
+}
+.img-text{
+	position:absolute;
+	background-color:transparent;
+	margin-top: -387;
+	margin-left: 103;
+}
+.last-img{
+	width:100%;
+	margin-bottom:50px;
+	margin-top:50px;
+	opacity:0.9;
+}
+.last-img p,h1{
+	color:#fff;
+	text-align:center;
+	font-family:verdana;
+}
+.footer2{
+	width:100%;
+	font-size:15px;
+	background-color:#fff;
+	min-height:76px;
+	margin-top: 138;
+}
+.footer1{
+	width:100%;
+	font-size:15px;
+	min-height:100px;
+}
+
+.footer{
+	margin-top:30px;
+	position:absolute;
+	background-color:#212121;	
+	width:100%;
+	font-size:15px;
+	opacity: 1;
+	color:#acacac;
+	padding:100px;
+	padding-bottom:40px;
+	padding-top:40px;
+
+	height: 614px;
+	position: relative;
+}
+.footer ul{
+	display:inline-block;
+	margin-top:0px;
+}
+
+.footer li {
+	font-weight: 400;
+	font-size: 14PX;	
+	line-height:32px;
+	list-style:none;
+	opacity:0.9;
+	color: #b0b0b0;
+}
+.footer .footer-h1{
+	line-height: 40px;
+	font-weight: 600;
+	font-size: 14px;
+	color: #b0b0b0;
+	list-style: none;
+	text-transform: uppercase;
+	opacity:1;
+}
+.footer .sec-2{
+	margin-left:170px;
+	margin-top:-406px;
+}
+.footer .sec-3 {
+	margin-left: 392px;
+	margin-top: -346px;
+}
+.footer .sec-4 {
+	margin-left: 563px;
+	margin-top: -119px;
+}
+.footer .sec-5 {
+	margin-left: 763px;
+	margin-top: -471px;
+}.footer .sec-6 {
+	margin-left: 973px;
+	margin-top: -109px;
+}
+.bton {
+	color: #b0b0b0;
+	border: 1px solid #b0b0b0 ;
+	padding:3px;
+	padding-right: 30px;
+	padding-left: 30px;
+	display:inline-block;
+}
+
+
+
+.footer li:hover{
+	opacity:1;
+	color:#fff;
+	transition:0.1s;
+	cursor:pointer;
+}
+
+.footer .footer-h1:hover{
+	color: #b0b0b0;
+	opacity:1;
+}
+
+.cards1 li:hover{
+	cursor:normal;
+	transition: 0.5s all;
+	filter: drop-shadow(0 0 0.2rem #171616);
+}
+.banner .down-menu li:hover{
+	transition:0.5s;
+	cursor:pointer;
+	color:#ff6900;
+}
+.left-side li:hover,.right-side li:hover{
+	opacity:1;
+	color:#fff;
+	cursor:pointer;
+}
+.hot-pro li:hover{
+	
+	border-bottom: 3px solid #fe7314;;
+	color:#fe7314;
+	transition: 0.1s;
+	cursor: pointer;
+}
+.footer .bton:hover{
+		background-color: #fff;
+		display: inline-block;
+		border-color: #fff;
+		cursor: pointer;
+		padding: 3px;
+		padding-right: 30px;
+		padding-left: 30px;
+		color: #000;
+}
+.footer .sm-txt:hover{
+	opacity:0.9;
+	color: #b0b0b0;
+}
